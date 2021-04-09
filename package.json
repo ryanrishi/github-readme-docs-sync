@@ -14,5 +14,8 @@
     "github-action"
   ],
   "author": "Ryan Rishi <ryan@ryanrishi.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.6"
+  }
 }
