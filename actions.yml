@@ -1,0 +1,16 @@
+name: ReadMe Documentation GitHub Sync
+description: Synchronize documentation files to ReadMe
+author: Ryan Rishi
+branding:
+  icon: code
+  color: blue
+inputs:
+  readme-api-key:
+    description: Your ReadMe API key
+  docs-folder:
+    description: The relative path for your documentation folder
+  api-version:
+    description: ReadMe version to sync docs into
+runs:
+  using: node12
+  main: index.js
